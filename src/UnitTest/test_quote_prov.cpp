@@ -907,7 +907,7 @@ void SetupEnvironment(std::string version)
 #if defined __LINUX__
     setenv(
         "AZDCAP_BASE_CERT_URL",
-        "https://global.acccache.azure.net/sgx/certificates",
+        "https://americas.test.acccache.azure.net/sgx/certificates",
         1);
     setenv("AZDCAP_CLIENT_ID", "AzureDCAPTestsLinux", 1);
     if (!version.empty())
